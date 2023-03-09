@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Con esto obligamos a los dispositivos móviles a decirnos cuál es el ancho de la pantalla real al momento de realizar la carga de la página-->
+    <meta name="viewport" content="width=device-width">
+
+     <!--Fontawsome se utiliza para los íconos de la página web-->
+     <script src="https://kit.fontawesome.com/b4e1aa3a60.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="menu">
+        <section class="menu__container">
+            <h1 class="menu__logo">Menú Responsive</h1>
+            <ul class="menu__links">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item menu__item--show">
+                    <a href="#" class="menu__link">About  <i class="menu__arrow fa-solid fa-arrow-right"></i></a>
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">Abaut 1</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">Abaut 2</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">Abaut 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item menu__item--show">
+                    <a href="#" class="menu__link">Projects  <i class="menu__arrow fa-solid fa-arrow-right"></i></a>
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">Proyect 1</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">Proyect 2</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">Proyect 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Contact</a>
+                </li>
+            </ul>
+            <div class="menu__hamburguer">
+                <i class="menu__icon fa-solid fa-bars"></i>
+            </div>
+        </section>
+    </nav>
+
+    <script src="script/app.js"></script>
+</body>
+</html>
